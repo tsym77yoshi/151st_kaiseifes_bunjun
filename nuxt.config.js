@@ -41,6 +41,6 @@ export default {
   build: {
   }
    router: {
-    base: '151st_kaiseifes_bunjun'
+    base: '/151st_kaiseifes_bunjun/'
   },
 }
