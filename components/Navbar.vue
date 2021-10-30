@@ -1,20 +1,20 @@
 <template>
   <div class="nav_back">
-    <div style="text-align:center">
-      <img src="~assets/icon.png" alt="文準アイコン" style="height:35px;margin:0px">
-      <p class="nav_title"><u>151s文化祭準備委員会</u></p>
-      <div class="nav_links">
-        <a href="https://151st-kaiseifes-bunjun.vercel.app/"><p>ホーム</p></a>
-        <a href="https://151st-kaiseifes-bunjun.vercel.app/"><p>HP講座</p></a>
-        <a href="https://151st-kaiseifes-bunjun.vercel.app/"><p>動画講座</p></a>
-      </div>
-    </div>
+    <img src="~assets/icon.png" alt="文準アイコン" style="height:35px;margin:0px">
+    <p class="nav_title"><u>151st文化祭準備委員会</u></p>
+    <span class="nav_links" style="float:right;">
+      <nuxt-link to="/"><p>ホーム</p></nuxt-link>
+      <nuxt-link to="/report"><p>文準通信</p></nuxt-link>
+      <nuxt-link to="/hp/hp_index"><p>HP講座</p></nuxt-link>
+      <nuxt-link to="/#movie"><p>動画講座</p></nuxt-link>
+    </span>
   </div>
 </template>
 
 <style>
 .nav_back{
   position:relative;
+  padding:0 5px 0;
   width:100%;
   background-color:#F48441;
   z-index:10;
@@ -28,16 +28,22 @@
   padding:5px;
   max-width:600px;
 }
-.nav_links{
-  display: inline-block;
-}
 .nav_links p{
-  display:inline-block;
+  display: inline-block;
 }
 .nav_links a{
   color:black;
+  padding:0 5px;
 }
 .nav_links a:hover{
   color: #505050;;
+}
+@media screen and (max-width: 639px) {
+  .nav_title {
+    display:none;
+  }
+  .nav_links{
+    margin-left: auto;
+  }
 }
 </style>
