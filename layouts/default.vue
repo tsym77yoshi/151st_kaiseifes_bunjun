@@ -8,32 +8,25 @@
 </template>
 
 <style>
-.scrollup {
-  position: fixed;
-  left: 98%;
-  bottom: 100px;
-  z-index: 100;
+.whole{
+  /*全体につける。index.vueで例を見るのが良いと思う*/
+  margin:auto;
+  padding:40px;
+  background-color:white;
+  box-shadow:0px 0px 5px 1px rgb(200, 200, 200);
+  max-width:800px;
 }
-.scrollup a {
-  /*描画位置*/
-  position: absolute;
-  right: 10px;
-  top: 40px;
-  /*テキストの形状*/
-  color: #000;
-  font-size: 0.7rem;
-  letter-spacing: 0.05em;
+.whole h2{
+  font-size:30px;
+  margin-top:20px;
 }
-.scrollup::after {
-  content: '';
-  /*描画位置*/
-  position: absolute;
-  top: 0;
-  /*線の形状*/
-  width: 1px;
-  height: 100px;
-  background: #000;
-  animation: pathup 3s ease-in-out infinite;
-  opacity: 0;
+.indent p{
+  /*インデントをしたい記事の親要素につける*/
+  text-indent: 1em;
+}
+.clearnum li{
+  /*数字を消したいliの親要素のul/ol要素につける*/
+  list-style: none;
+  text-indent: -1.3em;
 }
 </style>

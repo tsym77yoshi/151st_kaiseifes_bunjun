@@ -1,8 +1,12 @@
 <template>
   <div class="col-md-6 news">
-    <a :href="link">
+    <component
+      :is="isInternalLink(link) ? 'nuxt-link' : 'a'"
+      :to="isInternalLink(link) ? link : ''"
+      :href="isInternalLink(link) ? '' : link"
+    >
       <img :src="picture_name" :alt="picture_alt" style="width:100%">
-    </a>
+    </component>
   </div>
 </template>
 
@@ -28,5 +32,10 @@ export default {
     'picture_name',
     'picture_alt',
   ],
+  methods: {
+    isInternalLink (link) {
+      return !/^https?:\/\//.test(link)
+    }
+  }
 }
 </script>

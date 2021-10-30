@@ -4,6 +4,7 @@
     <p class="nav_title"><u>151st文化祭準備委員会</u></p>
     <span class="nav_links" style="float:right;">
       <nuxt-link to="/"><p>ホーム</p></nuxt-link>
+      <nuxt-link to="/report"><p>文準通信</p></nuxt-link>
       <nuxt-link to="/hp/hp_index"><p>HP講座</p></nuxt-link>
       <nuxt-link to="/#movie"><p>動画講座</p></nuxt-link>
     </span>
