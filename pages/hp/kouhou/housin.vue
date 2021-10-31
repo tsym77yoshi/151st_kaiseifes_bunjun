@@ -3,7 +3,6 @@
     <div class="whole">
       <img src="~assets/table.svg" alt="・" style="height:40px">
       <h1 style="display: inline-block;margin-bottom:20px">HP講座の方針</h1>
-      <p>HP講座の方針</p>
       <article>
         <h2>〇はじめに</h2>
         <p>これは広報係HP講座の方針についての説明です。広報HP講座一覧は<nuxt-link to="/#hp">こちら</nuxt-link>。</p>
@@ -15,7 +14,7 @@
       </article>
       <article>
         <h2>〇大切にしたいこと</h2>
-        <p>読むと言うより実践することを中心としよう！というのが目標です。講座内の演習問題や<nuxt-link to="hp/kouhou/boshu">講座・記事募集</nuxt-link>といったものを通じてこれを達成したいと考えています。</p>
+        <p>読むと言うより実践することを中心としよう！というのが目標です。講座内の演習問題や<nuxt-link to="/hp/kouhou/boshu">講座・記事募集</nuxt-link>といったものを通じてこれを達成したいと考えています。</p>
       </article>
       <article>
         <h2>〇広報係HP講座の順番</h2>
@@ -30,7 +29,7 @@
         </div>
         <h3>それぞれの説明</h3>
         <ol class="ulstyle">
-          <li>HTML<br>コードを書くやつです。HPの全ての始まり。<nuxt-link to="hp/kouhou/course1">第一回HP講座</nuxt-link>。</li>
+          <li>HTML<br>コードを書くやつです。HPの全ての始まり。<nuxt-link to="/hp/kouhou/course1">第一回HP講座</nuxt-link>。</li>
           <li>GitHub（<a href="https://github.com">https://github.com</a>）<br>共同開発するためのものです。バージョン管理が楽なのでGoogleドライブではなくこっちです。</li>
           <li>Nuxt.js（<a href="https://nuxtjs.org/">https://nuxtjs.org/</a>）<br>HTMLの派生です。導入が面倒ですがHPはこれで作った方がいいです。静的コンテンツです。</li>
           <li>Django（<a href="https://www.djangoproject.com/">https://www.djangoproject.com/</a>）<br>通信関係をPythonで動かします。動的コンテンツです。</li>
