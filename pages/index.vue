@@ -6,7 +6,7 @@
       <h2><nuxt-link to="/report">〇各文準通信（リンク）</nuxt-link></h2>
       <h2 id="hp">〇HP講座</h2>
       <ol>
-        <li></li>
+        <li><nuxt-link to="/hp/kouhou/course1">htmlの書き方基礎編（第一回HP講座）</nuxt-link>...htmlの書き方の基礎</li>
       </ol>
       <h2 id="movie">〇動画講座</h2>
       <ol>

@@ -1,7 +1,7 @@
 <template>
   <div class="footer_back">
-    <p class="nav_title">151st開成祭文化祭準備委員会広報係</p>
-    <p style="margin-bottom:0px;padding:5px;">メール:bunjun.kouhou@gmail.com</p>
+    <p class="nav_title">151st開成祭文化祭準備委員会広報係 生徒向けHP</p>
+    <p style="margin-bottom:0px;padding:5px;">何かあった場合のメール:bunjun.kouhou@gmail.com</p>
   </div>
 </template>
 

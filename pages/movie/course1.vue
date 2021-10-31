@@ -3,6 +3,7 @@
     <div class="whole indent">
       <img src="~assets/table.svg" alt="・" style="height:40px">
       <h1 style="display: inline-block;margin-bottom:20px">動画講座第一回</h1>
+      <p style="text-indent:0">動画編集のススメ</p>
       <article>
         <h2>〇はじめに</h2>
         <p>これは来年の文化祭で参団に積極的に関わりたいと思っている方に向けた動画講座です。参団と動画は全く関係がないように思うかもしれませんが、150thではいくつかの参団が紹介動画を作っています。例えば、今年大好評だった参団「バランスアクションVR」は以下の動画を作成していました。</p>

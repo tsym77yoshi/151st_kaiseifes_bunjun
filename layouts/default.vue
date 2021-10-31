@@ -17,8 +17,11 @@
   max-width:800px;
 }
 .whole h2{
-  font-size:30px;
-  margin-top:20px;
+  font-size:25px;
+  margin-top:25px;
+}
+.whole h3{
+  font-size: 20px;
 }
 .indent p{
   /*インデントをしたい記事の親要素につける*/
