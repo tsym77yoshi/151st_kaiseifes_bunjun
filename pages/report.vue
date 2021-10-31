@@ -1,7 +1,7 @@
 <template>
   <div style="background-color:rgb(220,220,220);">
     <div class="whole">
-      <img src="~assets/table.svg" style="height:40px">
+      <img src="~assets/table.svg" alt="・" style="height:40px">
       <h1 style="display: inline-block;">第一回文準通信</h1>
       <div class="container"><div class="row" style="text-align:center">
         <News link="https://151st-kaiseifes-bunjun.vercel.app/" picture_name="4by3.png" picture_alt=""/>

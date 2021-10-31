@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '151st_kaiseifes_bunjun',
+    title: '151st文準通信',
     htmlAttrs: {
       lang: 'ja'
     },
