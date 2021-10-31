@@ -6,12 +6,12 @@
       <p>htmlの書き方基礎編　<nuxt-link to="#makefile">（リンク）二回目以降も使う章</nuxt-link></p>
       <article>
         <h2>〇はじめに</h2>
-        <p style="text-indent:1em">これは来年の文化祭でオンライン文化祭（参団/広報係)に関わりたいと思っている方に向けたHP講座です。今年からは参団側でもコードを書いてもらう予定です。そして、コードを書く予定がない人も<nuxt-link to="/hp/kouhou/yotei">HPの進め方</nuxt-link>を一度見ていただけると嬉しいです。また、HP講座の今後の予定については<nuxt-link to="/hp/kouhou/housin">HPの方針</nuxt-link>にまとめました。HPはオンライン文化祭の中心的な存在です。みんなで151st開成祭を盛り上げるていきましょう！</p>
-        <p style="text-indent:1em">この講座ではHP作成の主にプログラミング部分をやったことのない・少ししか触ってない人のために0から教えていきます。（筆者は今年に入ってから始めて授業以外でhtmlを書き始めた未熟者なので温かい目で見てほしいです。ミスがあったらごめんなさい。）こんなのやったことあるぞ！という人はまぁ読む必要はありません。作る側に回ってくれ！（<nuxt-link to="/hp/kouhou/bosyu">HP講座募集について</nuxt-link>）</p>
+        <p style="text-indent:1em">これは来年の文化祭でオンライン文化祭（参団/広報係)に関わりたいと思っている方に向けたHP講座です。今年からは参団側でもコードを書いてもらう予定です。そして、コードを書く予定がない人も<nuxt-link to="/hp/kouhou/yotei/">HPの進め方</nuxt-link>を一度見ていただけると嬉しいです。また、HP講座の今後の予定については<nuxt-link to="/hp/kouhou/housin/">HPの方針</nuxt-link>にまとめました。HPはオンライン文化祭の中心的な存在です。みんなで151st開成祭を盛り上げるていきましょう！</p>
+        <p style="text-indent:1em">この講座ではHP作成の主にプログラミング部分をやったことのない・少ししか触ってない人のために0から教えていきます。（筆者は今年に入ってから始めて授業以外でhtmlを書き始めた未熟者なので温かい目で見てほしいです。ミスがあったらごめんなさい。）こんなのやったことあるぞ！という人はまぁ読む必要はありません。作る側に回ってくれ！（<nuxt-link to="/hp/kouhou/boshu/">HP講座募集について</nuxt-link>）</p>
       </article>
       <article>
         <h2>〇htmlとは？</h2>
-        <p>ホームページを作るものです。Chromeとかで動かせます。ダブルクリックでだいたい動きます。</p>
+        <p>ホームページを作るものです。Chromeとかブラウザで動かせます。ダブルクリックでだいたい動きます。</p>
       </article>
       <article>
         <h2>〇VisualStudioCodeの利用</h2>
@@ -25,7 +25,11 @@
             <li>④ インストールボタンを押し、後は流れに沿って進んでください。</li>
           </ol>
           <p>以上でインストールは完了です。</p>
-          <p>（補足）<br>デフォルトの言語設定は英語となっていますが、日本語に直すこともできます。（詳しくは<a href="https://www.javadrive.jp/vscode/install/index4.html">https://www.javadrive.jp/vscode/install/index4.html</a>を参照してください。）</p>
+          <p>（補足）</p>
+          <ul>
+            <li>デフォルトの言語設定は英語となっていますが、日本語に直すこともできます。（詳しくは<a href="https://www.javadrive.jp/vscode/install/index4.html">https://www.javadrive.jp/vscode/install/index4.html</a>を参照してください。）</li>
+            <li>文字数が多くても画面の端で折り返すようにすようにすることができます。（詳しくは<a href="https://www.javadrive.jp/vscode/setting/index7.html">https://www.javadrive.jp/vscode/setting/index7.html</a>参照してください。）</li>
+          </ul>
         </article>
         <article>
           <h3 id="makefile">2.htmlファイル作成</h3>
@@ -82,7 +86,7 @@
     &lt;img src="images/picture.png" alt="写真の写真">&lt;/img></font>
   &lt;/body>
 &lt;/html></pre>
-        <p>・実行結果※写真を入れていないので&lt;img>の部分がうまく表示されません。使い方や実行結果は調べてやってみてください。</p>
+        <p>・実行結果（エクスプローラー等で作ったファイルをダブルクリックしてください）※写真を入れていないので&lt;img>の部分がうまく表示されません。imgタグの使い方や実行結果は調べてやってみてください。</p>
         <div class="reset" style="border:1px solid black;margin:5px;width:100%;padding:5px">
           <h1>151st開成祭</h1>
           <h2>151は"st"</h2>
@@ -100,6 +104,7 @@
         <h3>説明</h3>
         <p style="text-indent:1em">「&lt;h1>151st開成祭&lt;/h1>」で見出し(=h1)の文字を151st開成祭(=&lt;h1>&lt;/h1>で囲まれた部分)にするという意味です。見出しならh1、段落ならpといったのは次の章で紹介します。使っていくうちになれると思います。</p>
         <p>（重要な補足）<br>　「　」（全角スペース）は使わないように気を付けましょう。よくこれが原因でエラーになります。&lt;p>&lt;/p>などに挟まれたところ以外で全角は使わないようにしてください。</p>
+        <p>（補足）<br>　どこがエラーなのか分からないといったときにはブラウザで開いてからWindowsの場合はF12、Macの場合は⌘+option+iを押して<u>デベロッパーツール</u>を開いてください。（ものによって違うかもしれません。上手くいかなかったら使っているブラウザ・OSを入れて検索してみてください）ブラウザによって違いますが赤いものがあったらエラーの可能性が高いです。そしてそこの()内にファイルと行数が指定されていることが多いのでそこをまず見てみてください。分からなかった場合は一般的な言葉にして検索して下さい。また、たまに再度読み込みをすると上手くいく場合もあるのでそちらも一回試してみてください。</p>
       </article>
       <article>
         <h2 id="tags">〇よく使うタグ</h2>
