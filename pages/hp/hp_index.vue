@@ -20,11 +20,4 @@ export default {}
 </script>
 
 <style>
-.whole{
-  margin:auto;
-  padding:10px;
-  background-color:white;
-  box-shadow:0px 0px 5px 1px rgb(200, 200, 200);
-  max-width:800px;
-}
 </style>

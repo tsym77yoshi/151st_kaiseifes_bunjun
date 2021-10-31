@@ -3,7 +3,7 @@
     <div class="whole">
       <img src="~assets/table.svg" alt="・" style="height:40px">
       <h1 style="display: inline-block;margin-bottom:20px">HP講座第一回</h1>
-      <p>htmlの書き方基礎編　<nuxt-link to="#makefile">（リンク）初回以降も使う章</nuxt-link></p>
+      <p>htmlの書き方基礎編　<nuxt-link to="#makefile">（リンク）二回目以降も使う章</nuxt-link></p>
       <article>
         <h2>〇はじめに</h2>
         <p style="text-indent:1em">これは来年の文化祭でオンライン文化祭（参団/広報係)に関わりたいと思っている方に向けたHP講座です。今年からは参団側でもコードを書いてもらう予定です。そして、コードを書く予定がない人も<nuxt-link to="/hp/kouhou/yotei">HPの進め方</nuxt-link>を一度見ていただけると嬉しいです。また、HP講座の今後の予定については<nuxt-link to="/hp/kouhou/housin">HPの方針</nuxt-link>にまとめました。HPはオンライン文化祭の中心的な存在です。みんなで151st開成祭を盛り上げるていきましょう！</p>
@@ -79,7 +79,7 @@
       &lt;p>154~9→15〇th&lt;/p>
     &lt;/div>
     &lt;p>151thという言い方がないわけではないらしい&lt;/p>
-    &lt;img src="picture.png" alt="写真の写真">&lt;/img></font>
+    &lt;img src="images/picture.png" alt="写真の写真">&lt;/img></font>
   &lt;/body>
 &lt;/html></pre>
         <p>・実行結果※写真を入れていないので&lt;img>の部分がうまく表示されません。使い方や実行結果は調べてやってみてください。</p>
@@ -95,7 +95,7 @@
             <p>154~9→15〇th</p>
           </div>
           <p>151thという言い方がないわけではないらしい※諸説あり</p>
-          <img src="picture.png" alt="写真の写真"><img>
+          <img src="images/picture.png" alt="写真の写真"><img>
         </div>
         <h3>説明</h3>
         <p style="text-indent:1em">「&lt;h1>151st開成祭&lt;/h1>」で見出し(=h1)の文字を151st開成祭(=&lt;h1>&lt;/h1>で囲まれた部分)にするという意味です。見出しならh1、段落ならpといったのは次の章で紹介します。使っていくうちになれると思います。</p>

@@ -12,6 +12,10 @@
       <ol>
         <li><nuxt-link to="/movie/course1">動画編集のススメ（第一回動画講座）</nuxt-link>...動画編集のススメ/おすすめのソフト・インストール方法</li>
       </ol>
+      <h2 id="other">〇その他</h2>
+      <ol>
+        <li><a href="/other/Illustrator.pdf">Illustrator講座完全版[PDF]</a>...AdobeIllustratorの完全版講座</li>
+      </ol>
       <div style="height:500px"></div>
     </div>
   </div>

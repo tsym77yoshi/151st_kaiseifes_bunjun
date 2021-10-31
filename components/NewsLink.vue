@@ -1,16 +1,13 @@
 <template>
   <div class="col-md-6 news">
-    <component
-      :is="isInternalLink(link) ? 'nuxt-link' : 'a'"
-      :to="isInternalLink(link) ? link : ''"
-      :href="isInternalLink(link) ? '' : link"
-    >
+    <nuxt-link :to="link">
       <img :src="picture_name" :alt="picture_alt" style="width:100%">
-    </component>
+      <p>{{ picture_alt }}</p>
+    </nuxt-link>
   </div>
 </template>
 
-<style>
+<style scoped>
 .news{
   padding:0px;
   margin:0px;
@@ -23,6 +20,12 @@
 .news img{
   padding:1vw;
 }
+.news p{
+  color:black;
+}
+.news p:hover{
+  color:#505050;
+}
 </style>
 
 <script>
@@ -32,10 +35,5 @@ export default {
     'picture_name',
     'picture_alt',
   ],
-  methods: {
-    isInternalLink (link) {
-      return !/^https?:\/\//.test(link)
-    }
-  }
 }
 </script>
