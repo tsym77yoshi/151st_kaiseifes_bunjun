@@ -22,7 +22,12 @@
 }
 .whole h3{
   font-size: 20px;
+  margin-top: 20px;
 }
+.whole article{
+  margin-bottom: 3em;
+}
+
 .indent p{
   /*インデントをしたい記事の親要素につける*/
   text-indent: 1em;
@@ -31,5 +36,10 @@
   /*数字を消したいliの親要素のul/ol要素につける*/
   list-style: none;
   text-indent: -1.3em;
+}
+.hrLine{
+  /*水平ライン(h2の下)*/
+  width:102%;
+  margin:0 -1% 1em;
 }
 </style>
