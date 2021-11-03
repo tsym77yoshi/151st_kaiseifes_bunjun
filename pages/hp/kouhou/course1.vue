@@ -1,20 +1,27 @@
 <template>
   <div style="background-color:rgb(220,220,220);">
     <div class="whole">
-      <img src="~assets/table.svg" alt="・" style="height:40px">
-      <h1 style="display: inline-block;margin-bottom:20px">HP講座第一回</h1>
-      <p>htmlの書き方基礎編　<nuxt-link to="#makefile">（リンク）二回目以降も使う章</nuxt-link></p>
+      <course-title title="HP講座第一回" subtitle="htmlの書き方基礎編" date="2021/10/31" />
+      <div class="containar" style="margin:0 5%;border:2px solid black;color:black">
+        <div style="text-align:center;width:100%;"><p>▼目次▼</p></div>
+        <ul class="row">  
+          <nuxt-link v-for="(item,index) in items" v-bind:key="item.id" :to="'#'+index" class="col-md-6"><li>{{ item }}</li></nuxt-link> 
+        </ul>
+      </div>
       <article>
-        <h2>〇はじめに</h2>
-        <p style="text-indent:1em">これは来年の文化祭でオンライン文化祭（参団/広報係)に関わりたいと思っている方に向けたHP講座です。今年からは参団側でもコードを書いてもらう予定です。そして、コードを書く予定がない人も<nuxt-link to="/hp/kouhou/yotei/">HPの進め方</nuxt-link>を一度見ていただけると嬉しいです。また、HP講座の今後の予定については<nuxt-link to="/hp/kouhou/housin/">HPの方針</nuxt-link>にまとめました。HPはオンライン文化祭の中心的な存在です。みんなで151st開成祭を盛り上げるていきましょう！</p>
-        <p style="text-indent:1em">この講座ではHP作成の主にプログラミング部分をやったことのない・少ししか触ってない人のために0から教えていきます。（筆者は今年に入ってから始めて授業以外でhtmlを書き始めた未熟者なので温かい目で見てほしいです。ミスがあったらごめんなさい。）こんなのやったことあるぞ！という人はまぁ読む必要はありません。作る側に回ってくれ！（<nuxt-link to="/hp/kouhou/boshu/">HP講座募集について</nuxt-link>）</p>
+        <h2 id="0">はじめに</h2>
+        <hr size=10 color="black" class="hrLine">
+        <p style="text-indent:1em">これは来年の文化祭でオンライン文化祭（参団/広報係)に関わりたいと思っている方に向けたHP講座です。今年からは参団側でもコードを書いてもらう予定です。<!--そして、コードを書く予定がない人も<nuxt-link to="/hp/kouhou/yotei/">HPの進め方</nuxt-link>を一度見ていただけると嬉しいです。また、-->HP講座の今後の予定については<nuxt-link to="/hp/kouhou/housin/">HPの方針</nuxt-link>にまとめました。HPはオンライン文化祭の中心的な存在です。みんなで151st開成祭を盛り上げるていきましょう！</p>
+        <p style="text-indent:1em">この講座ではHP作成の主にプログラミング部分をやったことのない・少ししか触ってない人のために0から教えていきます。（筆者は今年に入ってから始めて授業以外でhtmlを書き始めた未熟者なので温かい目で見てほしいです。ミスがあったらごめんなさい。）こんなのやったことあるぞ！という人はまぁ読む必要はありません。<!-- 作る側に回ってくれ！（<nuxt-link to="/hp/kouhou/boshu/">HP講座募集について</nuxt-link>）--></p>
       </article>
       <article>
-        <h2>〇htmlとは？</h2>
+        <h2 id="1">htmlとは？</h2>
+        <hr size=10 color="black" class="hrLine">
         <p>ホームページを作るものです。Chromeとかブラウザで動かせます。ダブルクリックでだいたい動きます。</p>
       </article>
       <article>
-        <h2>〇VisualStudioCodeの利用</h2>
+        <h2 id="2">VisualStudioCodeの利用</h2>
+        <hr size=10 color="black" class="hrLine">
         <article>
           <h3>1.インストール</h3>
           <p>VisualStudioCodeとはhtml等、プログラムを書きやすくするためのアプリです。"VSCode"と呼ばれることも多いです。（VisualStudioは別のアプリ）</p>
@@ -46,7 +53,8 @@
         </article>
       </article>
       <article>
-        <h2>〇書き始め</h2>
+        <h2 id="3">書き始め</h2>
+        <hr size=10 color="black" class="hrLine">
         <pre style="padding:2vw;background-color:#eeeeee">
 &lt;!DOCTYPE html>
 &lt;html>
@@ -61,9 +69,10 @@
         <p>丸々コピーして貼り付けてください。&lt;!-- この下から書き始める -->の次の行から書き始めます。</p>
       </article>
       <article>
-        <h2>〇htmlの書き方</h2>
+        <h2 id="4">htmlの書き方</h2>
+        <hr size=10 color="black" class="hrLine">
         <p>&lt;h1>と&lt;/h1>、&lt;p>と&lt;/p>など"タグ"で文字を囲います。</p>
-        <p>・記述例（h1やdivなどについては<nuxt-link to="#tags">次の章</nuxt-link>、style=""については<nuxt-link to="#style">スタイルの章</nuxt-link>で説明します）</p>
+        <p>・記述例（h1やdivなどについては<nuxt-link to="#5">次の章</nuxt-link>、style=""については<nuxt-link to="#7">スタイルの章</nuxt-link>で説明します）</p>
         <pre style="padding:2vw;background-color:#eeeeee">
 &lt;!DOCTYPE html>
 &lt;html>
@@ -107,7 +116,8 @@
         <p>（補足）<br>　どこがエラーなのか分からないといったときにはブラウザで開いてからWindowsの場合はF12、Macの場合は⌘+option+iを押して<u>デベロッパーツール</u>を開いてください。（ものによって違うかもしれません。上手くいかなかったら使っているブラウザ・OSを入れて検索してみてください）ブラウザによって違いますが赤いものがあったらエラーの可能性が高いです。そしてそこの()内にファイルと行数が指定されていることが多いのでそこをまず見てみてください。分からなかった場合は一般的な言葉にして検索して下さい。また、たまに再度読み込みをすると上手くいく場合もあるのでそちらも一回試してみてください。</p>
       </article>
       <article>
-        <h2 id="tags">〇よく使うタグ</h2>
+        <h2 id="5">よく使うタグ</h2>
+        <hr size=10 color="black" class="hrLine">
         <ul>
           <li>&lt;h1>,&lt;h2>,&lt;h3>...など<br>見出し。上の記述例のように文字を入れる。文字が大きい。</li>
           <li>&lt;p><br>普通の段落。同様に上の記述例のように文字を入れる。</li>
@@ -119,7 +129,8 @@
         <p style="text-indent:1em">他にもタグはあります。「html 下線」のように検索すれば&lt;u>、「html 箇条書き」のように検索すれば&lt;li>みたいに色々出てくると思います。数も多いですし自分で検索してみましょう！</p>
       </article>
       <article>
-        <h2 id="enshu">〇演習問題（よく使うタグ）</h2>
+        <h2 id="6">演習問題（よく使うタグ）</h2>
+        <hr size=10 color="black" class="hrLine">
         <p>以下のものを再現してみよう！</p>
         <div class="reset" style="border:1px solid black;margin:5px;width:100%;padding:5px">
           <h1>改行について（タイトル）</h1>
@@ -127,10 +138,11 @@
           <p>brタグはかなり簡単に改行することができます。しかしデザインを整えるために使うのは避けましょう。（本文）</p>
           <p>詳細は<a href="https://style.potepan.com/articles/20710.html">こちら</a>（https://style.potepan.com/articles/20710.html）</p>
         </div>
-        <p>解答は<nuxt-link to="#ans">下の方</nuxt-link>にあります</p>
+        <p>解答は<nuxt-link to="#10">下の方</nuxt-link>にあります</p>
       </article>
       <article>
-        <h2 id="style">〇スタイル</h2>
+        <h2 id="7">スタイル</h2>
+        <hr size=10 color="black" class="hrLine">
         <p>背景の色を変えたり文字の大きさを変えたりしたい！といったときにはスタイルを設定します。</p>
         <p style="text-indent:1em">本来は他ページに使いまわしができる上に読みやすくなる為cssファイルを別に利用した方がいいのですがここでは「css埋め込み・style属性」で設定しようと思います。外部ファイルcssについては<a href="https://saruwakakun.com/html-css/reference/where-css">https://saruwakakun.com/html-css/reference/where-css</a>が参考になります。css埋め込み（styleタグの中身）をcssファイルにうつしてheadにlinkを書くことで外部ファイルcssにすることができます。</p>
         <pre style="padding:2vw;background-color:#eeeeee">
@@ -185,11 +197,13 @@
         <p>以上で今回のスタイルについての説明は終了です。</p>
       </article>
       <article>
-        <h2>〇あとがき</h2>
-        <p style="text-indent:1em">まず、ここまで読んでいただきありがとうございます。そして、ここまでお疲れさまでした。第一回なのに量が多かったと思います。そして、HP作成は経験量が大事です。新たなタグやスタイルを使う場面ができたり、自分のお気に入りのデザインを見つけることができたりします。もう少しやりたい！という方は是非、<nuxt-link to="/hp/kouhou/boshu">講座募集</nuxt-link>に出していただけると嬉しいです。それではまた後で～</p>
+        <h2 id="8">あとがき</h2>
+        <hr size=10 color="black" class="hrLine">
+        <p style="text-indent:1em">まず、ここまで読んでいただきありがとうございます。そして、ここまでお疲れさまでした。第一回なのに量が多かったと思います。そして、HP作成は経験量が大事です。新たなタグやスタイルを使う場面ができたり、自分のお気に入りのデザインを見つけることができたりします。是非作ってみてください！（作ってもらう企画も考えています）<!--もう少しやりたい！という方は是非、<nuxt-link to="/hp/kouhou/boshu">講座募集</nuxt-link>に出していただけると嬉しいです。-->それではまた次回以降もよろしくお願いします。次回はhtmlの難しい部分、padding/marginやdisplayなどをやる予定です。</p>
       </article>
       <article>
-        <h2>〇この講座のデザインについて</h2>
+        <h2 id="9">この講座のデザインについて</h2>
+        <hr size=10 color="black" class="hrLine">
         <p>参考までに</p>
         <pre style="padding:2vw;background-color:#eeeeee">
 &lt;!DOCTYPE html>
@@ -232,8 +246,9 @@
 &lt;/html></pre>
       </article>
       <article>
-        <h2 id="ans">※解答</h2>
-        <p><nuxt-link to="#enshu">この問題</nuxt-link>の解答例です</p>
+        <h2 id="10">※解答</h2>
+        <hr size=10 color="black" class="hrLine">
+        <p><nuxt-link to="#6">この問題</nuxt-link>の解答例です</p>
         <pre style="padding:2vw;background-color:#eeeeee">
 &lt;!DOCTYPE html>
 &lt;html>
@@ -258,12 +273,6 @@
 .ulstyle li {
   margin-bottom: 10px;
 }
-article {
-  margin-top: 40px;
-}
-h3 {
-  margin-top: 20px;
-}
 .reset h2{
   font-size:2rem;
   margin-top:0;
@@ -276,3 +285,14 @@ h3 {
   background-color:#eeeeee;
 }
 </style>
+<script>
+import { defineComponent } from '@vue/composition-api'
+
+export default {
+  data (){
+    return{
+      items:["はじめに","htmlとは？","VisualStudioCodeの利用","書き始め","htmlの書き方","よく使うタグ","演習問題（よく使うタグ）","スタイル","あとがき","この講座のデザインについて","演習問題の解答"]
+    }
+  },
+}
+</script>
