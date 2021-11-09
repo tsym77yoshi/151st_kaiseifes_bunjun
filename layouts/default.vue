@@ -2,7 +2,6 @@
   <div>
     <Navbar id="navbar" />
     <Nuxt />
-    <div class="scrollup" fixed></div>
     <Footer id="footer" />
   </div>
 </template>
@@ -26,6 +25,11 @@
 }
 .whole article{
   margin-bottom: 3em;
+}
+@media screen and (max-width: 639px) {
+  .whole{
+    padding:40px 0.5em;
+  }
 }
 
 .indent p{

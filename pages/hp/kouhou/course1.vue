@@ -25,7 +25,7 @@
         <article>
           <h3>1.インストール</h3>
           <p>VisualStudioCodeとはhtml等、プログラムを書きやすくするためのアプリです。"VSCode"と呼ばれることも多いです。（VisualStudioは別のアプリ）</p>
-          <ol class="clearnum">
+          <ol class="clearnum" style="overflow:hidden;">
             <li>① 次のリンクにアクセスします：<a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download</a></li>
             <li>② 自分の使っているOSに合わせて ↓Windows または ↓Mac を押してダウンロードします（※わからない人はPC本体にリンゴのマークがあればMac、そうでなければだいたいWindowsです）</li>
             <li>③ インストーラーを立ち上げます。</li>
@@ -33,7 +33,7 @@
           </ol>
           <p>以上でインストールは完了です。</p>
           <p>（補足）</p>
-          <ul>
+          <ul style="overflow:hidden;">
             <li>デフォルトの言語設定は英語となっていますが、日本語に直すこともできます。（詳しくは<a href="https://www.javadrive.jp/vscode/install/index4.html">https://www.javadrive.jp/vscode/install/index4.html</a>を参照してください。）</li>
             <li>文字数が多くても画面の端で折り返すようにすようにすることができます。（詳しくは<a href="https://www.javadrive.jp/vscode/setting/index7.html">https://www.javadrive.jp/vscode/setting/index7.html</a>参照してください。）</li>
           </ul>
@@ -66,7 +66,7 @@
 
   &lt;/body>
 &lt;/html></pre>
-        <p>丸々コピーして貼り付けてください。&lt;!-- この下から書き始める -->の次の行から書き始めます。</p>
+        <p>丸々コピーして貼り付けてください。&lt;!-- この下から書き始める -->の次の行から書き始めます。※htmlを書くには&lt;head>&lt;/head>の中身が少なすぎますがNuxt.jsでは書く機会が少ない為書いていません。</p>
       </article>
       <article>
         <h2 id="4">htmlの書き方</h2>
