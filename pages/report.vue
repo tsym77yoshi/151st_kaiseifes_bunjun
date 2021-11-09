@@ -5,7 +5,7 @@
       <img src="~assets/table.svg" alt="・" style="height:40px">
       <h1 style="display: inline-block;">第一回文準通信</h1>
       <div class="container"><div class="row" style="text-align:center">
-        <NewsA link="https://151st-kaiseifes-bunjun.vercel.app/" picture_name="1_report.png" picture_alt="第一回文準通信カラー版[PDF]"/>
+        <NewsA link="/report/文準通信/文準通信-1st-net.pdf" picture_name="1_report.png" picture_alt="第一回文準通信カラー版[PDF]"/>
         <NewsLink link="/hp/kouhou/course1/" picture_name="1_hp.png" picture_alt="htmlの書き方基礎（HP講座第一回）"/>
         <NewsLink link="/movie/course1/" picture_name="1_movie.png" picture_alt="動画編集のススメ（動画講座第一回）"/>
         <NewsA link="/other/Illustrator.pdf" picture_name="1_illustrator.png" picture_alt="Illustrator講座完全版[PDF]"/>
