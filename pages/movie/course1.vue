@@ -128,6 +128,7 @@
   padding:2% 5%;
 }
 </style>
+
 <script>
 import { defineComponent } from '@vue/composition-api'
 
