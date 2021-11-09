@@ -12,7 +12,7 @@
       </div></div>
       <div style="height:50vh"></div>
       <div style="width:100%;margin:0;background-color:#ee8888;text-align:center"><a href="https://forms.gle/oN1f6ecxgWkWeWPW7" style="color:black"><p style="font-size:1.5em">文化祭意見 BOXはこちら</p></a></div>
-      <p style="text-indent:1em">このページには文準通信を載せていきます。また、文準通信の回ごとにリンクは変えるつもりはありません。中身をこのページに追加していきます。</p>
+      <p style="text-indent:1em">このページには文準通信を載せていきます。また、文準通信の回ごとにリンクは変える予定はありません。中身をこのページに追加していきます。</p>
     </div>
   </div>
 </template>

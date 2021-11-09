@@ -2,12 +2,7 @@
   <div style="background-color:rgb(220,220,220);">
     <div class="whole indent">
       <course-title title="動画講座第一回" subtitle="動画編集のススメ" date="2021/11/04"/>
-      <div class="containar" style="margin:0 5%;border:2px solid black;color:black">
-        <div style="text-align:center;width:100%;"><p>▼目次▼</p></div>
-        <ul class="row">  
-          <nuxt-link v-for="(item,index) in items" v-bind:key="item.id" :to="'#'+index" class="col-md-6"><li>{{ item }}</li></nuxt-link> 
-        </ul>
-      </div>
+      <course-contents :items="items" />
       <article>
         <h2 id="0">はじめに</h2>
         <hr size=10 color="black" class="hrLine">
