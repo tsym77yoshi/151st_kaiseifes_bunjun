@@ -23,7 +23,7 @@
   font-size: 20px;
   margin-top: 20px;
 }
-.whole article{
+.whole section{
   margin-bottom: 3em;
 }
 @media screen and (max-width: 639px) {
