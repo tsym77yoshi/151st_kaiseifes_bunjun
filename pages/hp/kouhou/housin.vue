@@ -1,23 +1,26 @@
 <template>
   <div style="background-color:rgb(220,220,220);">
     <div class="whole">
-      <img src="~assets/table.svg" alt="・" style="height:40px">
-      <h1 style="display: inline-block;margin-bottom:20px">HP講座の方針</h1>
-      <article>
-        <h2>〇はじめに</h2>
+      <course-title title="広報HP講座の方針" subtitle="広報HP講座の順番と理由" date="2021/10/31" />
+      <section>
+        <h2 id="0">はじめに</h2>
+        <hr size=10 color="black" class="hrLine">
         <p>これは広報係HP講座の方針についての説明です。広報HP講座一覧は<nuxt-link to="/#hp">こちら</nuxt-link>。</p>
-      </article>
-      <article>
-        <h2>〇HP講座の最終目標</h2>
+      </section>
+      <section>
+        <h2 id="1">HP講座の最終目標</h2>
+        <hr size=10 color="black" class="hrLine">
         <p>最終目標はnuxt.jsをGitHubで共同開発する事です。そしてその後としてDjangoを使ってもらおうと考えています。</p>
         <p></p>
-      </article>
-      <article>
-        <h2>〇大切にしたいこと</h2>
+      </section>
+      <section>
+        <h2 id="2">大切にしたいこと</h2>
+        <hr size=10 color="black" class="hrLine">
         <p>読むと言うより実践することを中心としよう！というのが目標です。<!--講座内の演習問題や<nuxt-link to="/hp/kouhou/boshu">講座・記事募集</nuxt-link>といったものを通じてこれを達成したいと考えています。--></p>
-      </article>
-      <article>
-        <h2>〇広報係HP講座の順番</h2>
+      </section>
+      <section>
+        <h2 id="3">広報係HP講座の順番</h2>
+        <hr size=10 color="black" class="hrLine">
         <div class="CourseOrder">
           <p style="background-color:orange">HTML</p>
           <p style="font-size:1em">↓</p>
@@ -41,7 +44,7 @@
           <li>途中でGitHubを挟むのはなぜ？<br>Nuxt.jsのプロジェクトを作成する時にGitHubアカウントを聞かれます。また、今後も使う可能性が高いものだからです。ただ、ここでつまずいてしまうくらいなら飛ばして貰って構わないと思っています。</li>
           <li>Djangoはhtml関係ないのになんで最後に持ってきたの？<br>一番大きな理由は僕ができないからです。また、Django単体では面白いことができないので最後にしました。</li>
         </ol>
-      </article>
+      </section>
     </div>
   </div>
 </template>

@@ -3,14 +3,14 @@
     <div class="whole indent">
       <course-title title="動画講座第一回" subtitle="動画編集のススメ" date="2021/11/04"/>
       <course-contents :items="items" />
-      <article>
+      <section>
         <h2 id="0">はじめに</h2>
         <hr size=10 color="black" class="hrLine">
         <p>これは来年の文化祭で参団に積極的に関わりたいと思っている方に向けた動画講座です。参団と動画は全く関係がないように思うかもしれませんが、150thではいくつかの参団が紹介動画を作っています。例えば、今年大好評だった参団「バランスアクションVR」は以下の動画を作成していました。</p>
         <blockquote class="twitter-tweet" data-lang="ja" data-dnt="true"><p lang="ja" dir="ltr">企画紹介<br><br>バランスアクション!VR <a href="https://twitter.com/VrRunning?ref_src=twsrc%5Etfw">@vrrunning</a><br>文化祭で、話題のVRアトラクションが遂に出た！近未来の世界でビルとビルとを横断して、飛行して…もっとリアルに、より直にVRを体感しよう！ <a href="https://t.co/Gbwnu1CNBX">pic.twitter.com/Gbwnu1CNBX</a></p>&mdash; 150th開成祭 (@kaisei_festival) <a href="https://twitter.com/kaisei_festival/status/1439215012803801094?ref_src=twsrc%5Etfw">2021年9月18日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <p>皆さんもこんなかっこいい紹介動画を作ってみたいと思いませんか？そこで、この講座では動画編集をやったことがない方のために、0から編集技術を教えていきます。（筆者もまだまだ初心者なので、温かい目で見ていただけると幸いです。）</p>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2 id="1">動画の作り方</h2>
         <hr size=10 color="black" class="hrLine">
         <p style="text-indent: 0;">動画の作り方は大きく次の２つに分けられます。</p>
@@ -19,8 +19,8 @@
           <li>② 動画編集ソフトで作ったパーツ（図形や文字など）を主軸にして作る方法</li>
         </ol>
         <p>比較的簡単に動画が作れるのは①の方法なので、動画編集が初めてだという方には①をお勧めします。しかし、この方法には動画の質が素材の質に左右されるという短所もあり、良い動画を作るためには編集技術だけでなく、カメラの技術やあるいは絵を描く技術といった他の技術が求められます。一方、②の方法では編集技術さえあれば他は何もいりません。そのため、この際動画編集を極めたいという方は②をお勧めします。ちなみに、先ほどの「バランスアクションVR」の紹介動画は（最後のシーンを除いて）②の方法で作られています</p>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2 id="2">動画編集ソフトについて</h2>
         <hr size=10 color="black" class="hrLine">
         <p>この講座で扱う動画編集（加工）ソフトはAviUtl, Adobe Premire Pro, Adobe Affter Effects, DaVinci Resolveの4つです。(筆者が主に使っているのはAviUtlです)</p>
@@ -39,11 +39,11 @@
         </ul>
         <p style="text-indent: 0;">となります。</p>
         <p style="text-indent: 0;">ということで、次の章では各編集ソフトのインストール方法について解説します。</p>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2 id="3">編集ソフトのダウンロード・インストール方法</h2>
         <hr size=10 color="black" class="hrLine">
-        <article>
+        <section>
           <h3>1. AviUtl（参考：<a href="https://aviutl.info/intro/">https://aviutl.info/intro/</a>）</h3>
           <ol class="clearnum">
             <li>① 次のリンクにアクセスします：<a href="http://spring-fragrance.mints.ne.jp/aviutl/">http://spring-fragrance.mints.ne.jp/aviutl/</a></li>
@@ -60,8 +60,8 @@
             <br>
             <li>MP4形式（Youtubeなどの標準規格）での出力を可能にするプラグイン「x264guiEx」をダウンロードしましょう。（詳しくは<a href="https://aviutl.info/x264guiex-tokutyou/">https://aviutl.info/x264guiex-tokutyou/</a>を参照してください）</li>
           </ul>
-        </article>
-        <article>
+        </section>
+        <section>
           <h3>2.Adobe Premire Pro, Adobe Affter Effects</h3>
           <p style="text-indent: 0">どちらか片方でもいいですが、できれば両方インストールしましょう。</p>
           <ol class="clearnum">
@@ -71,8 +71,8 @@
           </ol>
           <p style="text-indent: 0">以上でインストールは完了です。なお、どちらもソフト内に簡単なチュートリアルがついていますので、ぜひやってみて下さい。（ソフトを起動→①「学ぶ」をクリック→②チュートリアルを開始）</p>
           <div style="text-align:center"><img src="画像5.png" alt="Adobeチュートリアル" style="width:80%;margin-bottom:1em"></div>
-        </article>
-        <article style="overflow:hidden;">
+        </section>
+        <section style="overflow:hidden;">
           <h3>3.DaVinci Resolve（参考：<a href="https://udemy.benesse.co.jp/design/movie/how-to-davinci-resolve.html">https://udemy.benesse.co.jp/ design/movie/how-to-davinci-resolve.html</a>）</h3>
           <ol class="clearnum">
             <li>① 次のリンクにアクセスします：<a href="https://www.blackmagicdesign.com/jp/products/davinciresolve/">https://www.blackmagicdesign.com/jp/products/davinciresolve/</a></li>
@@ -88,9 +88,9 @@
           </ol>
           <p style="text-indent: 0">以上でインストールは完了です。</p>
           <p style="text-indent: 0">（補足）<br>デフォルトの言語設定は英語となっていますが、日本語に直すこともできます。（詳しくは<a href="https://udemy.benesse.co.jp/design/movie/how-to-davinci-resolve.html">https://udemy.benesse.co.jp/design/movie/how-to-davinci-resolve.html</a>を参照してください。）</p>
-        </article>
-      </article>
-      <article>
+        </section>
+      </section>
+      <section>
         <h2 id="4">各ソフトの操作方法について</h2>
         <hr size=10 color="black" class="hrLine">
         <p>詳しくは次回解説しますが、ダウンロードして何もできないというのは悲しいと思うので、いくつか有用なサイトを載せておきます。（有用すぎて次回からの講座いらないかも…）</p>
@@ -105,12 +105,12 @@
           <li>「DaVinch-Resolve-17-Beginners-Guide」（<a href="https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-17-Beginners-Guide.pdf?_v=1623283767000">https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-17-Beginners-Guide.pdf?_v=1623283767000</a>）…公式さんが出しているDaVinci Resolveの教科書的なもの（但し、英語版なので日本人のYoutubeチャンネル（<a href="https://www.youtube.com/channel/UCY3J0X26AAeqIijVE1kANIw/featured">https://www.youtube.com/channel/UCY3J0X26AAeqIijVE1kANIw/featured</a>）の解説と合わせて見るのがおすすめ）</li>
           <img src="画像12.png" alt="DaVinciResolveチュートリアル" style="width:100%;margin-bottom:1em;">
         </ul>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2 id="5">おわりに</h2>
         <hr size=10 color="black" class="hrLine">
         <p>いかがでしたか。今回の内容じゃ物足りないという方はぜひ上に挙げたサイトで操作方法を覚えて、Youtubeなどにアップロードされているチュートリアルをガンガンこなしていってください。こなした数だけきっと力になります。次回は簡単な動画を作成しながら、操作方法や基本的な技術を解説していきたいと思います。</p>
-      </article>
+      </section>
     </div>
   </div>
 </template>
@@ -130,7 +130,7 @@ import { defineComponent } from '@vue/composition-api'
 export default {
   data (){
     return{
-      items:["はじめに","動画の作り方","動画編集ソフトについて","編集ソフトのダウンロード・インストール方法","各ソフトの操作方法について","おわりに"]
+      items:["はじめに","動画の作り方","動画編集ソフトについて","インストール方法","各ソフトの操作方法について","おわりに"]
     }
   },
 }
