@@ -16,7 +16,7 @@
       <section>
         <h2 id="2">大切にしたいこと</h2>
         <hr size=10 color="black" class="hrLine">
-        <p>読むと言うより実践することを中心としよう！というのが目標です。<!--講座内の演習問題や<nuxt-link to="/hp/kouhou/boshu">講座・記事募集</nuxt-link>といったものを通じてこれを達成したいと考えています。--></p>
+        <p>読むと言うより実践することを中心としよう！というのが目標です。講座内の演習問題や<nuxt-link to="/hp/kouhou/boshu">講座・記事募集</nuxt-link>といったものを通じてこれを達成したいと考えています。</p>
       </section>
       <section>
         <h2 id="3">広報係HP講座の順番</h2>
@@ -45,6 +45,7 @@
           <li>Djangoはhtml関係ないのになんで最後に持ってきたの？<br>一番大きな理由は僕ができないからです。また、Django単体では面白いことができないので最後にしました。</li>
         </ol>
       </section>
+      <course-link-index type1="HP講座" type1link="/hp/" type2="by広報総務" type2link="/#hp" />
     </div>
   </div>
 </template>
