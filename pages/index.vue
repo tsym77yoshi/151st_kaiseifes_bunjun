@@ -9,8 +9,10 @@
 
       <h2 id="hp">HP講座</h2>
       <hr size=10 color="black" class="hrLine">
+      <h3>by広報総務</h3>
       <ol>
         <li><nuxt-link to="/hp/kouhou/course1/">htmlの書き方基礎編（第一回HP講座）</nuxt-link>...htmlの書き方の基礎</li>
+        <li><nuxt-link to="/hp/kouhou/course2/">htmlの書き方発展編（第二回HP講座）</nuxt-link>...htmlの書き方の発展</li>
       </ol>
       
       <h2 id="movie">動画講座</h2>
@@ -37,7 +39,10 @@ export default {}
 
 <style scoped>
 h2{
-  font-size:20px
+  font-size:20px;
+}
+h3{
+  font-size:18px;
 }
 li{
   font-size:15px;

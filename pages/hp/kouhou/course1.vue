@@ -7,7 +7,7 @@
         <h2 id="0">はじめに</h2>
         <hr size=10 color="black" class="hrLine">
         <p style="text-indent:1em">これは来年の文化祭でオンライン文化祭（参団/広報係)に関わりたいと思っている方に向けたHP講座です。今年からは参団側でもコードを書いてもらう予定です。<!--そして、コードを書く予定がない人も<nuxt-link to="/hp/kouhou/yotei/">HPの進め方</nuxt-link>を一度見ていただけると嬉しいです。また、-->HP講座の今後の予定については<nuxt-link to="/hp/kouhou/housin/">HPの方針</nuxt-link>にまとめました。HPはオンライン文化祭の中心的な存在です。みんなで151st開成祭を盛り上げるていきましょう！</p>
-        <p style="text-indent:1em">この講座ではHP作成の主にプログラミング部分をやったことのない・少ししか触ってない人のために0から教えていきます。（筆者は今年に入ってから始めて授業以外でhtmlを書き始めた未熟者なので温かい目で見てほしいです。ミスがあったらごめんなさい。）こんなのやったことあるぞ！という人はまぁ読む必要はありません。<!-- 作る側に回ってくれ！（<nuxt-link to="/hp/kouhou/boshu/">HP講座募集について</nuxt-link>）--></p>
+        <p style="text-indent:1em">この講座ではHP作成の主にプログラミング部分をやったことのない・少ししか触ってない人のために0から教えていきます。（筆者は今年に入ってから始めて授業以外でhtmlを書き始めた未熟者なので温かい目で見てほしいです。ミスがあったらごめんなさい。）こんなのやったことあるぞ！という人はまぁ読む必要はありません。作る側に回ってくれ！（<nuxt-link to="/hp/kouhou/boshu/">HP講座募集について</nuxt-link>）</p>
       </section>
       <section>
         <h2 id="1">htmlとは？</h2>
@@ -200,7 +200,7 @@
       <section>
         <h2 id="9">あとがき</h2>
         <hr size=10 color="black" class="hrLine">
-        <p style="text-indent:1em">まず、ここまで読んでいただきありがとうございます。そして、ここまでお疲れさまでした。第一回なのに量が多かったと思います。そして、HP作成は経験量が大事です。新たなタグやスタイルを使う場面ができたり、自分のお気に入りのデザインを見つけることができたりします。是非作ってみてください！（作ってもらう企画も考えています）<!--もう少しやりたい！という方は是非、<nuxt-link to="/hp/kouhou/boshu">講座募集</nuxt-link>に出していただけると嬉しいです。-->それではまた次回以降もよろしくお願いします。次回はhtmlの難しい部分、padding/marginやdisplayなどをやる予定です。</p>
+        <p style="text-indent:1em">まず、ここまで読んでいただきありがとうございます。そして、ここまでお疲れさまでした。第一回なのに量が多かったと思います。そして、HP作成は経験量が大事です。新たなタグやスタイルを使う場面ができたり、自分のお気に入りのデザインを見つけることができたりします。是非作ってみてください！（作ってもらう企画も考えています）もう少しやりたい！という方は是非、<nuxt-link to="/hp/kouhou/boshu">講座募集</nuxt-link>に出していただけると嬉しいです。それではまた次回以降もよろしくお願いします。次回はhtmlの難しい部分、padding/marginやdisplayなどをやる予定です。</p>
       </section>
       <section>
         <h2 id="10">この講座のデザインについて</h2>
@@ -219,26 +219,42 @@
       h3{
         font-size: 20px;
       }
-      .back{
+      .whole{
         margin:auto;
         padding:40px;
         background-color:white;
         box-shadow:0px 0px 5px 1px rgb(200, 200, 200);
         max-width:800px;
       }
+      .whole h2{
+        font-size:25px;
+        margin-top:25px;
+      }
+      .whole h3{
+        font-size: 20px;
+        margin-top: 20px;
+      }
+      .whole section{
+        margin-bottom: 3em;
+      }
+      @media screen and (max-width: 639px) {
+        .whole{
+          padding:40px 0.5em;
+        }
+      }
     &lt;/style>
   &lt;/head>
   &lt;body style="margin:0;">
     &lt;div style="background-color:rgb(220,220,220);">
-      &lt;div class="back">
+      &lt;div class="whole">
         &lt;!-- この下から文章を書く -->
         &lt;h1>講座１&lt;/h1>
-        &lt;h2>「&amp;lt;>」の書き方&lt;/h2>
+        &lt;h2>「&lt;>」の書き方&lt;/h2>
         &lt;div style="padding:2vw;background-color:#eeeeee;">
-          &lt;p>普通に書くとコードとして扱われてしまうため、&amp;amp;lt;と書くことで&amp;lt;と表示できる（>はそのままで問題ない）&lt;/p>
+          &lt;p>普通に書くとコードとして扱われてしまうため、&amp;lt;と書くことで&lt;と表示できる（>はそのままで問題ない）&lt;/p>
         &lt;/div>
         &lt;div style="border:1px solid black;margin:5px;width:100%;padding:5px">
-          &lt;p>「&amp;amp;lt;」を利用してコードを表示しよう！&lt;/p>
+          &lt;p>「&amp;lt;」を利用してコードを表示しよう！&lt;/p>
         &lt;/div>
 
       &lt;/div>
@@ -266,6 +282,8 @@
 &lt;/html></pre>
           <p style="text-indent:1em;">最後から三行目の&lt;a>&lt;/a>を改行することもできますが文章のまとまりが分かりにくくなる為、筆者は同じ行に書いています。どちらでも同じです。</p>
       </section>
+      <CourseLink aftlink="/hp/kouhou/course2" afttitle="第二回 html発展" index="HP講座一覧" indexlink="/#hp" />
+      <course-link-index type1="HP講座" type1link="/hp/index/" type2="by広報総務" type2link="/#hp" />
     </div>
   </div>
 </template>
@@ -287,8 +305,6 @@
 }
 </style>
 <script>
-import { defineComponent } from '@vue/composition-api'
-
 export default {
   data (){
     return{
