@@ -266,6 +266,7 @@
 &lt;/html></pre>
           <p style="text-indent:1em;">最後から三行目の&lt;a>&lt;/a>を改行することもできますが文章のまとまりが分かりにくくなる為、筆者は同じ行に書いています。どちらでも同じです。</p>
       </section>
+      <CourseLink aftlink="/hp/kouhou/course2" afttitle="第二回 html発展" index="HP講座一覧" indexlink="/#hp" />
     </div>
   </div>
 </template>
@@ -288,8 +289,10 @@
 </style>
 <script>
 import { defineComponent } from '@vue/composition-api'
+import CourseLink from '../../../components/CourseLink.vue'
 
 export default {
+  components: { CourseLink },
   data (){
     return{
       items:["はじめに","htmlとは？","VisualStudioCodeの利用","書き始め","htmlの書き方","よく使うタグ","演習問題（よく使うタグ）","スタイル","参考になるリンク","あとがき","この講座のデザインについて","演習問題の解答"]
