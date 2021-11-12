@@ -209,6 +209,7 @@ body{color: black}
                 </pre>
             </section>
             <CourseLink beflink="/hp/kouhou/course1" beftitle="第一回 html基礎" index="HP講座一覧" indexlink="/#hp" />
+            <course-link-index type1="HP講座" type1link="/hp/index/" type2="by広報総務" type2link="/#hp" />
 
 
         </div>
