@@ -118,7 +118,7 @@ body{color: black}
                 <p>上で良く使うスタイルを紹介しましたがその中で最も重要なのがpaddingやmarginです。これらの関係性を理解すればサイト内の余白を自由自在に調節することが出来ます。
                     ここで下の写真を見てください。余白の調整に使えるものの関係はそのようになっています。
                 </p>
-                <p><img src="box-model2.png" alt="図" style="width:60%;margin:10px 20%"></p>
+                <p><img src="boxmodel2.png" alt="図" style="width:60%;margin:10px 20%"></p>
                 <ul>
                     <li>width、height<br>widthとheightは要素本体の横幅と縦幅です。text-alineや&lt;br>を使わない改行はこれをもとに行われます。
                     基本的には自動的に設定されますが指定する際にはこの二つがあまりにも小さすぎると要素の中身が要素からはみ出して表示されてしまうことに注意してください。width:～;、height: ～;で指定可能。</li>
