@@ -1,7 +1,10 @@
 <template>
   <div style="background-color:rgb(220,220,220);">
     <div class="whole">
-      <div style="width:100%;margin:0;background-color:#ee8888;text-align:center"><a href="https://forms.gle/oN1f6ecxgWkWeWPW7" style="color:black"><p style="font-size:1.5em">文化祭意見 BOXはこちら</p></a></div>
+      <div style="width:100%;margin:0;background-color:#ee8888;text-align:center"><a href="https://drive.google.com/drive/u/2/folders/1Q8TX7BE_YIynGT69geqZmgJsZP-I2zQM" style="color:black">
+        <p style="font-size:1.5em;margin:0">各係の初回ミーティング資料</p>
+        <p style="font-size:1em">※1学園のアカウントで入ってください<br>※2資料上に各CのLINEがあるので、そこに連絡ください</p>
+      </a></div>
       <img src="~assets/table.svg" alt="・" style="height:40px">
       <h1 style="display: inline-block;">第二回文準通信</h1>
       <div class="container">
