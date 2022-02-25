@@ -1,7 +1,7 @@
 <template>
   <div style="background-color:rgb(220,220,220);">
     <div class="whole">
-      <div style="width:100%;margin:0;background-color:#ee8888;text-align:center"><a href="https://drive.google.com/drive/u/2/folders/1Q8TX7BE_YIynGT69geqZmgJsZP-I2zQM" style="color:black">
+      <div style="width:100%;margin:0;background-color:#ee8888;text-align:center"><a href="https://drive.google.com/drive/u/2/folders/1hCrPjH3H2XiQLL6Aj93QyQOyWWjKzqrs" style="color:black">
         <p style="font-size:1.5em;margin:0">各係の初回ミーティング資料</p>
         <p style="font-size:1em">※1学園のアカウントで入ってください<br>※2資料上に各CのLINEがあるので、そこに連絡ください</p>
       </a></div>
